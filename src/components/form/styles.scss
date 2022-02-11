@@ -1,0 +1,58 @@
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+
+  label {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    opacity: 0.9;
+  }
+
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: white;
+    font-family: "Metropolis", sans-serif;
+    font-size: 19px;
+  }
+
+  textarea {
+    background: none;
+    outline: none;
+    border: none;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    padding: 15px;
+    color: white;
+    font-family: "Metropolis", sans-serif;
+    resize: vertical;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.329);
+    font-size: 19px;
+
+    &::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: #f7f8fc;
+      border-radius: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #fc7532;
+      border-radius: 5px;
+    }
+  }
+}

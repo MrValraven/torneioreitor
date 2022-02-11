@@ -1,0 +1,9 @@
+.equipaTable {
+  td {
+    height: 75px;
+
+    &:nth-child(2) {
+      text-align: start;
+    }
+  }
+}

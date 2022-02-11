@@ -8,9 +8,9 @@ import "./styles.scss";
 const Header = () => {
   return (
     <header>
-      <div className="logo">
-        <img src={Logo} alt="" />
-      </div>
+      <Link to="/" className="logo">
+        <img src={Logo} alt="logo" />
+      </Link>
       <nav>
         <ul>
           <Link to="/" className="navItem">

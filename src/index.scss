@@ -1,6 +1,23 @@
 @import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+@font-face {
+  font-family: "Metropolis";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: local("Metropolis"),
+    url("./assets/font/metropolis/Metropolis-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: local("Metropolis"),
+    url("./assets/font/metropolis/Metropolis-Bold.otf") format("opentype");
+}
+
 $backgroundColor: #151415;
 $fontColor: #fc7532;
 
@@ -14,12 +31,12 @@ body {
   max-width: 2000px;
   margin: 0;
   padding: 0px 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Metropolis", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background-color: $backgroundColor;
-  color: white;
+  color: #f7f8fc;
 
   &::-webkit-scrollbar {
     width: 0.5rem;

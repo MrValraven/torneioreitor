@@ -24,42 +24,46 @@ const Form = () => {
   };
 
   return (
-    <form className="form" onSubmit={(e) => handleSubmit(e)}>
-      <label name="name">Nome *</label>
-      <input
-        type="text"
-        name="name"
-        value={formData.name}
-        onChange={(e) => handleChange(e)}
-        required
-      />
-      <label name="name">Email *</label>
-      <input
-        type="email"
-        name="email"
-        value={formData.email}
-        onChange={(e) => handleChange(e)}
-        required
-      />
-      <label name="name">Assunto *</label>
-      <input
-        type="text"
-        name="subject"
-        value={formData.subject}
-        onChange={(e) => handleChange(e)}
-        required
-      />
-      <label name="name">Menssagem *</label>
-      <textarea
-        type="text"
-        name="message"
-        value={formData.message}
-        onChange={(e) => handleChange(e)}
-        required
-      />
+    <div>
+      <h1>Envia-nos uma mensagem</h1>
 
-      <Button buttonText="Enviar" />
-    </form>
+      <form className="form" onSubmit={(e) => handleSubmit(e)}>
+        <label name="name">Nome *</label>
+        <input
+          type="text"
+          name="name"
+          value={formData.name}
+          onChange={(e) => handleChange(e)}
+          required
+        />
+        <label name="name">Email *</label>
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={(e) => handleChange(e)}
+          required
+        />
+        <label name="name">Assunto *</label>
+        <input
+          type="text"
+          name="subject"
+          value={formData.subject}
+          onChange={(e) => handleChange(e)}
+          required
+        />
+        <label name="name">Mensagem *</label>
+        <textarea
+          type="text"
+          name="message"
+          value={formData.message}
+          onChange={(e) => handleChange(e)}
+          required
+        />
+
+        <Button buttonText="Enviar" />
+      </form>
+    </div>
   );
 };
 
