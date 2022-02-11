@@ -1,0 +1,48 @@
+@import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$backgroundColor: #151415;
+$fontColor: #fc7532;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 2000px;
+  margin: 0;
+  padding: 0px 50px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: $backgroundColor;
+  color: white;
+
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #f7f8fc;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #333333;
+    border-radius: 5px;
+  }
+
+  &.modalIsToggled {
+    overflow: hidden;
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}

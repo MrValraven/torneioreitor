@@ -1,0 +1,18 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 50px;
+  padding: 100px 0;
+
+  .socials {
+    i {
+      font-size: 24px;
+    }
+  }
+
+  span {
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+  }
+}

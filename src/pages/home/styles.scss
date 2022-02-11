@@ -1,0 +1,14 @@
+.nextGames {
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+.jogos {
+  display: flex;
+  flex-wrap: wrap;
+  &:first-child {
+    margin-left: 0;
+  }
+}

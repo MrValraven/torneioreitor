@@ -1,0 +1,24 @@
+.hero {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .heroImage {
+    width: 40%;
+  }
+
+  .heroText {
+    max-width: 60%;
+    h1 {
+      font-size: 100px;
+    }
+
+    p {
+      font-size: 22px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      max-width: 70%;
+    }
+  }
+}
