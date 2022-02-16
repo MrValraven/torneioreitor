@@ -7,11 +7,11 @@ import ApiPage from "./pages/api/ApiPage";
 import CalendarioPage from "./pages/calendario/CalendarioPage";
 import GroupPage from "./pages/grupos/GroupPage";
 import Homepage from "./pages/home/Homepage";
-import InscricaoPage from "./pages/inscricao/InscricaoPage";
 import LeaderboardPage from "./pages/leaderboard/LeaderboardPage";
 import RegulamentoPage from "./pages/regulamento/RegulamentoPage";
 
 import "./App.scss";
+import Contactos from "./pages/contactos/Contactos";
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
         <Route exact path="/grupos" component={GroupPage} />
         <Route exact path="/leaderboard" component={LeaderboardPage} />
         <Route exact path="/regulamento" component={RegulamentoPage} />
-        <Route exact path="/inscricao" component={InscricaoPage} />
+        <Route exact path="/contactos" component={Contactos} />
       </Switch>
       <Footer />
     </div>

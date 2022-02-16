@@ -12,8 +12,8 @@ const Hero = () => {
         <h1>Torneio do Reitor</h1>
         <p>
           O tradicional Torneio do Reitor está de volta!
-          <br /> Não percas tempo e inscreve já a tua equipa, pois as vagas são
-          limitadas às primeiras 24 equipas.
+          <br /> Acompanha a tua equipa de futsal, aqui podes consultar o
+          calendário dos jogos e os resultados.”
         </p>
         <Button buttonText="Inscreve-te já!"></Button>
       </div>

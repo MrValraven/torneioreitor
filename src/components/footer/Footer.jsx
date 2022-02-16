@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="socials">
         <h2>Redes sociais</h2>
         <a
-          href="https://www.instagram.com/aauevora/"
+          href="https://www.instagram.com/uevorasports/"
           target="_blank"
           rel="noopenner noreferrer"
         >
@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://www.facebook.com/AAUEvora/"
+          href="https://www.facebook.com/uevorasports"
           target="_blank"
           rel="noopenner noreferrer"
         >
@@ -35,6 +35,17 @@ const Footer = () => {
             </a>
           </li>
           <li>
+            <a href="https://goo.gl/maps/hMu13iR5NiM2">
+              <i className="fas fa-map-marker-alt icon" aria-hidden="true">
+                <span>Jogos:</span>
+              </i>
+              <p>
+                Pavilhão da Universidade de Évora
+                <br /> R. de Reguengos de Monsaraz 14, Évora
+              </p>
+            </a>
+          </li>
+          <li>
             <a href="tel:+351266098003">
               <i className="fas fa-phone icon" aria-hidden="true">
                 <span>Telefone</span>
@@ -48,13 +59,13 @@ const Footer = () => {
         <h2>Emails</h2>
         <ul>
           <li>
-            <a href="mailto:geral@aaue.pt">
-              <p>geral@aaue.pt</p>
+            <a href="mailto:desportiva@aaue.pt">
+              <p>desportiva@aaue.pt</p>
             </a>
           </li>
           <li>
-            <a href="mailto:desportiva@aaue.pt">
-              <p>desportiva@aaue.pt</p>
+            <a href="mailto:geral@aaue.pt">
+              <p>geral@aaue.pt</p>
             </a>
           </li>
         </ul>

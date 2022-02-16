@@ -5,10 +5,18 @@
   justify-content: space-around;
 
   .heroImage {
-    width: 40%;
+    max-width: 40%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      width: 85%;
+    }
   }
 
   .heroText {
+    margin-top: -100px;
     max-width: 60%;
     h1 {
       font-size: 100px;

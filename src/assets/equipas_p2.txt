@@ -1,0 +1,160 @@
+[{
+    "nome": "La Bela Máfia",
+    "curso": "Ciências do Desporto",
+    "jogadores": [
+    				"Raul Rosa",
+    				"André Santos",
+    				"Bernardo Silva",
+    				"Luís Miguel",
+    				"Rodrigo Dores",
+    				"Telmo Sousa",
+    				"Miguel Oliveira",
+    				"Henrique relo"
+    ],
+    "capitão": "Luís Vieira",
+    "treinador": "Leonor Pestana"
+},
+{
+    "nome": "Tomé",
+    "curso": "Ciências do Desporto",
+    "jogadores": [
+    				"Miguel Patricio",
+    				"Ricardo Mendonça",
+    				"Tomás Carrasqueira",
+    				"Afonso Nunes",
+    				"Franciso Viana",
+    				"Alexandre Caldeira",
+    				"Tomás Aleixo",
+    				"Cláudio Rosa",
+    				"Afonso Ruivo",
+    				"Luís Carvalinho",
+    				"Tiago Dordio"
+    ],
+    "capitão": "Ricardo Mendonça",
+    "delegado": "",
+    "treinador": "Alexandre Monteiro"
+},
+{
+    "nome": "Shotless",
+    "curso": "Gestão",
+    "jogadores": [
+    				"Gonçalo Galvão",
+    				"Tomás Ramalho",
+    				"Diogo Barbosa",
+    				"Francisco Caldeira",
+    				"Simão Rebocho",
+    				"Filipe Tojo",
+    				"Miguel Neves",
+    				"João Matos",
+    				"Filipe Casquinha",
+    				"Pedro Pereira",
+    				"Pedro Dias",
+    				"Afonso Miranda"
+    ],
+    "capitão": "Luís Vieira",
+    "delegado": "André Junceiro",
+    "treinador": "Leonor Pestana"
+},
+{
+    "nome": "Bubacrónica",
+    "curso": "Engenharia Mecatrónica",
+    "jogadores": [
+    				"Marco Pereira",
+    				"João Consolado",
+    				"João Farmigo",
+    				"Eduardo Favita",
+    				"Bernardo Francisco",
+    				"Guilherme Castanho",
+    				"Francisco Atela",
+    				"Julio Furtado",
+    				"Paulo Pestana",
+    				"Daniel Sacoto",
+    				"Miguel Tojo",
+    				"Francisco Martins"
+    ],
+    "capitão": "Paulo Pestana",
+    "delegado": "João Cruz",
+    "treinador": "Vitória Revytskyy"
+},
+{
+    "nome": "FC Agronomia",
+    "curso": "Agronomia",
+    "jogadores": [
+    				"Jorge Narigueta",
+    				"Alexandre Jorge",
+    				"Miguel Pereira",
+    				"João Tiago Ramalho",
+    				"Filipe Rodrigues",
+    				"Gonçalo Gonçalves",
+    				"Cristiano Côdea",
+    				"Daniel Machado",
+    				"Alexandre Pereira",
+    				"António Franco",
+    				"Lucas Sousa",
+    				"Gonçalo Carvalho"
+    ],
+    "capitão": "Alexandre Jorge",
+    "delegado": "Rui Teles",
+    "treinador": "Augusto Rosa"
+},
+{
+    "nome": "20Vencer",
+    "curso": "história e Arqueologia",
+    "jogadores": [
+    				"Tiago Correia",
+    				"Diogo Silva",
+    				"Gonçalo Charrua",
+    				"António Vinagre",
+    				"Francisco Santos",
+    				"André Guerreiro",
+    				"Filipe Cavaco",
+    				"Gonçalo Elias",
+    				"Afonso Carvalho",
+    				"José Gonçalves",
+    				"Rodrigo Elias",
+    				"Sérgio Bolotinha"
+    ],
+    "capitão": "Gonçalo Elias",
+    "delegado": "Rodrigo Elias",
+    "treinador": "Gonçalo Charrua"
+},
+{
+    "nome": "Flops Fc",
+    "curso": "Geografia",
+    "jogadores": [
+    				"João Paixão",
+    				"Emanuel Esteves",
+    				"Tiago Carola",
+    				"Filipe Rasteiro",
+    				"José Lemos",
+    				"João Cipriano",
+    				"Afonso Filipe",
+    				"Tomás Alexandre",
+    				"João Gaitas",
+    				"Tomás Pona"
+    ],
+    "capitão": "Tomás Pona",
+    "delegado": "Paulo dos Santos",
+    "treinador": "Luís Rosa"
+},
+{
+    "nome": "Chocapics do Lidl",
+    "curso": "Ciências do Desporto",
+    "jogadores": [
+    				"Nelson Silva",
+    				"António Serrano",
+    				"António Conceição",
+    				"Angelo Romão",
+    				"Fernando Ferro",
+    				"Bernardo Saraiva",
+    				"Pedro Vicente",
+    				"Pedro Reis",
+    				"Gonaço Ambrósio"
+    ],
+    "capitão": "Pedro Reis",
+    "delegado": "Angelo Romão",
+    "treinador": "Angelo Romão"
+}
+
+
+]

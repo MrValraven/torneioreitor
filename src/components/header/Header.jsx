@@ -36,7 +36,7 @@ const Header = () => {
           <Link to="/regulamento" className="navItem">
             Regulamento
           </Link>
-          <Link to="/inscricao" className="navItem">
+          <Link to="/contactos" className="navItem">
             Inscrição
           </Link>
         </ul>

@@ -19,7 +19,7 @@
 }
 
 $backgroundColor: #151415;
-$fontColor: #fc7532;
+$fontColor: #d82529;
 
 * {
   margin: 0;
@@ -29,7 +29,7 @@ $fontColor: #fc7532;
 
 body {
   max-width: 2000px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0px 50px;
   font-family: "Metropolis", sans-serif;
   -webkit-font-smoothing: antialiased;
