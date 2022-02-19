@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "./styles.scss";
 
-const Calendar = () => {
+const Calendar = ({ filterGames }) => {
   const tournamentMonths = [
     {
       nome: "Fevereiro",
@@ -34,12 +34,13 @@ const Calendar = () => {
   });
   const [index, setIndex] = useState(0);
 
+  const handleClick = (e) => {};
+
   useEffect(() => {
     setMonth({ ...tournamentMonths[0], index: 0 });
   }, []);
 
   const incrementIndex = () => {
-    console.log("he");
     if (index >= tournamentMonths.length) {
       return;
     }
@@ -55,7 +56,6 @@ const Calendar = () => {
 
   useEffect(() => {
     setMonth({ ...tournamentMonths[index], index: index });
-    console.log(index);
   }, [index]);
 
   return (
@@ -93,6 +93,7 @@ const Calendar = () => {
                 ? "gameDay"
                 : ""
             }
+            onClick={handleClick}
           >
             {day > 0 ? day : ""}
           </p>
