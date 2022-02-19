@@ -1,0 +1,257 @@
+[
+  {
+    "id": 0,
+    "data": "23022022",
+    "hora": "18h40",
+    "equipa1": "Paris Saint Galinha",
+    "equipa2": "Os Mais-Valias",
+    "resultado": "vs"
+  },
+  {
+    "id": 1,
+    "data": "23022022",
+    "hora": "19h30",
+    "equipa1": "FC Agronomia",
+    "equipa2": "RI Caralho",
+    "resultado": "vs"
+  },
+  {
+    "id": 2,
+    "data": "23022022",
+    "hora": "20h20",
+    "equipa1": "Tomé",
+    "equipa2": "Palpa Vacas",
+    "resultado": "vs"
+  },
+  {
+    "id": 3,
+    "data": "23022022",
+    "hora": "21h10",
+    "equipa1": "Equipo Elite",
+    "equipa2": "Shotless",
+    "resultado": "vs"
+  },
+  {
+    "id": 4,
+    "data": "20032022",
+    "hora": "18h40",
+    "equipa1": "La Bela Mafia",
+    "equipa2": "Buba Crónica",
+    "resultado": "vs"
+  },
+  {
+    "id": 5,
+    "data": "20032022",
+    "hora": "19h30",
+    "equipa1": "Lenhaaa",
+    "equipa2": "Paris Saint Galinha",
+    "resultado": "vs"
+  },
+  {
+    "id": 6,
+    "data": "20032022",
+    "hora": "20h20",
+    "equipa1": "FC Agronomia",
+    "equipa2": "Economia",
+    "resultado": "vs"
+  },
+  {
+    "id": 7,
+    "data": "20032022",
+    "hora": "21h10",
+    "equipa1": "20Vencer",
+    "equipa2": "Blue Ballz",
+    "resultado": "vs"
+  },
+  {
+    "id": 8,
+    "data": "09032022",
+    "hora": "18h40",
+    "equipa1": "Lenhaaa",
+    "equipa2": "Flops FC",
+    "resultado": "vs"
+  },
+  {
+    "id": 9,
+    "data": "09032022",
+    "hora": "19h30",
+    "equipa1": "Chocapic do LIDL",
+    "equipa2": "Economia",
+    "resultado": "vs"
+  },
+  {
+    "id": 10,
+    "data": "09032022",
+    "hora": "20h20",
+    "equipa1": "Tomé ",
+    "equipa2": "20Vencer",
+    "resultado": "vs"
+  },
+  {
+    "id": 11,
+    "data": "09032022",
+    "hora": "21H10",
+    "equipa1": "La Bela Mafia",
+    "equipa2": "Equipo Elite",
+    "resultado": "vs"
+  },
+  {
+    "id": 12,
+    "data": "16032022",
+    "hora": "18h40",
+    "equipa1": "Buba Crónica",
+    "equipa2": "Shotless",
+    "resultado": "vs"
+  },
+  {
+    "id": 13,
+    "data": "16032022",
+    "hora": "19h30",
+    "equipa1": "Flopes FC",
+    "equipa2": "Os Mais-Valias",
+    "resultado": "vs"
+  },
+  {
+    "id": 14,
+    "data": "16032022",
+    "hora": "20h20",
+    "equipa1": "Economia",
+    "equipa2": "RI Caralho",
+    "resultado": "vs"
+  },
+  {
+    "id": 15,
+    "data": "16032022",
+    "hora": "21H10",
+    "equipa1": "Palpa Vacas",
+    "equipa2": "Blue Ballz",
+    "resultado": "vs"
+  },
+  {
+    "id": 16,
+    "data": "23032022",
+    "hora": "18h40",
+    "equipa1": "Bubca Crónica",
+    "equipa2": "Equipo Elite",
+    "resultado": "vs"
+  },
+  {
+    "id": 17,
+    "data": "23032022",
+    "hora": "19h30",
+    "equipa1": "Chocapic do LIDL",
+    "equipa2": "FC Agronomia",
+    "resultado": "vs"
+  },
+  {
+    "id": 18,
+    "data": "23032022",
+    "hora": "20h20",
+    "equipa1": "Flopes FC",
+    "equipa2": "Paris Saint Galinha",
+    "resultado": "vs"
+  },
+  {
+    "id": 19,
+    "data": "23032022",
+    "hora": "21H10",
+    "equipa1": "Tomé",
+    "equipa2": "Blue Ballz",
+    "resultado": "vs"
+  },
+  {
+    "id": 20,
+    "data": "06042022",
+    "hora": "18h40",
+    "equipa1": "Palpa Vacas",
+    "equipa2": "20Vencer",
+    "resultado": "vs"
+  },
+  {
+    "id": 21,
+    "data": "06042022",
+    "hora": "19h30",
+    "equipa1": "Chocapic do LIDL",
+    "equipa2": "RI Caralho",
+    "resultado": "vs"
+  },
+  {
+    "id": 22,
+    "data": "06042022",
+    "hora": "20h20",
+    "equipa1": "Lenhaaa",
+    "equipa2": "Os Mais-Valias",
+    "resultado": "vs"
+  },
+  {
+    "id": 23,
+    "data": "06042022",
+    "hora": "21H10",
+    "equipa1": "La Bela Mafia",
+    "equipa2": "Shotless",
+    "resultado": "vs"
+  },
+  {
+    "id": 24,
+    "data": "13042022",
+    "hora": "18h40",
+    "equipa1": "1º Grupo A",
+    "equipa2": "2º Grupo C",
+    "resultado": "vs",
+    "pormenor": "Quartos Final"
+  },
+  {
+    "id": 25,
+    "data": "13042022",
+    "hora": "19h30",
+    "equipa1": "1º Grupo B",
+    "equipa2": "2º Grupo D",
+    "resultado": "vs",
+    "pormenor": "Quartos Final"
+  },
+  {
+    "id": 26,
+    "data": "13042022",
+    "hora": "20h20",
+    "equipa1": "1º Grupo C",
+    "equipa2": "2º Grupo A",
+    "resultado": "vs",
+    "pormenor": "Quartos Final"
+  },
+  {
+    "id": 27,
+    "data": "13042022",
+    "hora": "21h1018h40",
+    "equipa1": "1º Grupo D",
+    "equipa2": "2º Grupo B",
+    "resultado": "vs",
+    "pormenor": "Quartos Final"
+  },
+  {
+    "id": 28,
+    "data": "20042022",
+    "hora": "20h20",
+    "equipa1": "Vencedor jogo 1",
+    "equipa2": "Vencedor jogo 3",
+    "resultado": "vs",
+    "pormenor": "Meia Final"
+  },
+  {
+    "id": 29,
+    "data": "20042022",
+    "hora": "21h10",
+    "equipa1": "Vencedor jogo 2",
+    "equipa2": "Vencedor jogo 4",
+    "resultado": "vs",
+    "pormenor": "Meia Final"
+  },
+  {
+    "id": 30,
+    "data": "27042022",
+    "hora": "21h10",
+    "equipa1": "Vencedor da Meia Final",
+    "equipa2": "Vencedor da Meia Final",
+    "resultado": "vs",
+    "pormenor": "Final"
+  }
+]

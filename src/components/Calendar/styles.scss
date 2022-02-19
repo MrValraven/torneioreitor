@@ -1,0 +1,55 @@
+.calendario {
+  padding: 50px 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .headerText {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  span {
+    font-size: 40px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover {
+      cursor: pointer;
+      color: #d82529;
+    }
+  }
+
+  h1 {
+    margin: 0 20px;
+  }
+}
+
+.diasDaSemana {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  p {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+.numerosDosDias {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  p {
+    padding: 20px;
+    margin: 5px;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  .gameDay {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+  }
+}

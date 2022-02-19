@@ -4,17 +4,32 @@
       "nome": "Blue Ballz",
       "curso": "Bioquímica",
       "jogadores": [
-        "Samuel Teixeira",
-        "Dinis Coutinho",
-        "Pedro Esteves",
-        "João Machado",
-        "Diogo Castanheira",
-        "Miguel Parente",
-        "Danilo Jorge",
-        "Miguel Costa",
-        "Tomás Almeida",
-        "Guilherme Deep",
-        "Rafael Fernandes"
+        {
+          "nome": "Samuel Teixeira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Dinis Coutinho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Pedro Esteves", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "João Machado", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Diogo Castanheira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Miguel Parente", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Danilo Jorge", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Miguel Costa", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Tomás Almeida", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Guilherme Deep", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Rafael Fernandes",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        }
       ],
       "capitao": "Diogo Castanheira",
       "delegado": "Luís Sarmento",
@@ -24,18 +39,43 @@
       "nome": "Lenhaaa",
       "curso": "Ciências do Desporto",
       "jogadores": [
-        "Dinis Pesanha",
-        "Alexandre Soares",
-        "Alexandre Simões",
-        "Luís Fernandes",
-        "Tomás Brites",
-        "Francisco Fortunato",
-        "Diogo Iglésias",
-        "Francisco Gonçalves",
-        "Diogo Santos",
-        "Hugo Ferreira",
-        "Guilherme Nogueira",
-        "Diogo Silva"
+        { "nome": "Dinis Pesanha", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Alexandre Soares",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Alexandre Simões",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Luís Fernandes", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Tomás Brites", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Francisco Fortunato",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Diogo Iglésias", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Francisco Gonçalves",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Diogo Santos", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Hugo Ferreira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Guilherme Nogueira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Diogo Silva", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitao": "Diogo Iglésias",
       "delegado": "",
@@ -45,16 +85,31 @@
       "nome": "Equipo Elite",
       "curso": "Biotecnologia",
       "jogadores": [
-        "João Graça",
-        "Luís Chalaça",
-        "José Lavado",
-        "Miguel Candeias",
-        "Francisco Cachaço",
-        "José Ferreira",
-        "Tiago Vaz",
-        "José Silva",
-        "Henrique Batista",
-        "Marco Maximino"
+        { "nome": "João Graça", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Luís Chalaça", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "José Lavado", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Miguel Candeias",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Francisco Cachaço",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "José Ferreira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Tiago Vaz", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "José Silva", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Henrique Batista",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Marco Maximino", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitao": "Luis Vitorino",
       "delegado": "Nuno Rebelo ",
@@ -64,17 +119,22 @@
       "nome": "Palpa Vacas",
       "curso": "Medicina Veterinária",
       "jogadores": [
-        "Afonso Mendonça",
-        "Fábio Silva",
-        "Miguel Anada",
-        "Jorge Matos",
-        "Gonçalo Pato",
-        "Duarte Vaz",
-        "Miguel Valente",
-        "Daniel Donzio",
-        "João Calado",
-        "Nuno Lourenço",
-        "Diogo Caldas"
+        {
+          "nome": "Afonso Mendonça",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Fábio Silva", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Miguel Anada", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Jorge Matos", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Gonçalo Pato", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Duarte Vaz", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Miguel Valente", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Daniel Donzio", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "João Calado", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Nuno Lourenço", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Diogo Caldas", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitao": "Jorge Matos",
       "delegado": "",
@@ -84,14 +144,34 @@
       "nome": "RI Caralho",
       "curso": "Relações Internacionais",
       "jogadores": [
-        "Jaime Rente",
-        "Diogo Russo",
-        "Pedro Rodrigues",
-        "Pedro Riolo",
-        "Henrique Alegria",
-        "Ezequiel Lopes",
-        "Bernardo Bastos",
-        "Francisco Pereira"
+        { "nome": "Jaime Rente", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Diogo Russo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Pedro Rodrigues",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Pedro Riolo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Henrique Alegria",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Ezequiel Lopes", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Bernardo Bastos",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Francisco Pereira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        }
       ],
       "capitao": "Jaime Rente",
       "delegado": "",
@@ -101,16 +181,26 @@
       "nome": "Paris Saint Galinha",
       "curso": "Sociologia",
       "jogadores": [
-        "Tiago Oliveira Gomes",
-        "Francisco Serrão",
-        "Issufo Mango",
-        "Tomás Bonacho",
-        "Ricardo Coelho",
-        "Martim Rose",
-        "Diogo Carvalho",
-        "David Monteigo",
-        "Afonso Ceriaco",
-        "Miguel Cardoso"
+        {
+          "nome": "Tiago Oliveira Gomes",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Francisco Serrão",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Issufo Mango", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Tomás Bonacho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Ricardo Coelho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Martim Rose", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Diogo Carvalho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "David Monteigo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Afonso Ceriaco", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Miguel Cardoso", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitao": "Issufo Mango",
       "delegado": "Francisco Serrão",
@@ -120,18 +210,53 @@
       "nome": "Economia",
       "curso": "Economia",
       "jogadores": [
-        "Tiago Nogueira",
-        "Paulo Oliveira",
-        "José Fernandes",
-        "Tiago Figueiredo",
-        "Ricardo Arsénio",
-        "Rodrigo Olveira",
-        "Bruno Sardinheiro",
-        "Rui Prata",
-        "Luis Magro",
-        "Gonçalo Ludaico",
-        "Vasco Ferreira",
-        "Ricardo Navalhas"
+        { "nome": "Tiago Nogueira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Paulo Oliveira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "José Fernandes", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Tiago Figueiredo",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Ricardo Arsénio",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Rodrigo Olveira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Bruno Sardinheiro",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Rui Prata", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Luis Magro", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Gonçalo Ludaico",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          " nome": "Vasco Ferreira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Ricardo Navalhas",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        }
       ],
       "capitao": "Bruno Sardinheiro",
       "delegado": "João Oliveira",
@@ -141,19 +266,39 @@
       "nome": "Os Mais-Valias",
       "curso": "Turismo",
       "jogadores": [
-        "António Varas",
-        "José Honrado",
-        "Gonçalo Cortinhas",
-        "João Varela",
-        "João Leal",
-        "João Leal",
-        "Francisco Ginó",
-        "Luis Jorge",
-        "Bernardo Rechestre",
-        "António Ourives",
-        "Francisco Esporeta",
-        "Diogo Grilo",
-        "Tiago Maneta"
+        { "nome": "António Varas", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "José Honrado", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Gonçalo Cortinhas",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "João Varela", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "João Leal", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "João Leal", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Francisco Ginó", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Luis Jorge", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Bernardo Rechestre",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "António Ourives",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Francisco Esporeta",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Diogo Grilo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Tiago Maneta", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitao": "Luis Jorge",
       "delegado": "João Pestena",
@@ -163,14 +308,19 @@
       "nome": "La Bela Máfia",
       "curso": "Ciências do Desporto",
       "jogadores": [
-        "Raul Rosa",
-        "André Santos",
-        "Bernardo Silva",
-        "Luís Miguel",
-        "Rodrigo Dores",
-        "Telmo Sousa",
-        "Miguel Oliveira",
-        "Henrique relo"
+        { "nome": "Raul Rosa", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "André Santos", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Bernardo Silva", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Luís Miguel", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Rodrigo Dores", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Telmo Sousa", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Miguel Oliveira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Henrique Relo", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitão": "Luís Vieira",
       "treinador": "Leonor Pestana"
@@ -179,17 +329,42 @@
       "nome": "Tomé",
       "curso": "Ciências do Desporto",
       "jogadores": [
-        "Miguel Patricio",
-        "Ricardo Mendonça",
-        "Tomás Carrasqueira",
-        "Afonso Nunes",
-        "Franciso Viana",
-        "Alexandre Caldeira",
-        "Tomás Aleixo",
-        "Cláudio Rosa",
-        "Afonso Ruivo",
-        "Luís Carvalinho",
-        "Tiago Dordio"
+        {
+          "nome": "Miguel Patricio",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Ricardo Mendonça",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Tomás Carrasqueira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Afonso Nunes", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Franciso Viana", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Alexandre Caldeira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Tomás Aleixo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Cláudio Rosa", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Afonso Ruivo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Luís Carvalinho",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Tiago Dordio", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitão": "Ricardo Mendonça",
       "delegado": "",
@@ -199,18 +374,28 @@
       "nome": "Shotless",
       "curso": "Gestão",
       "jogadores": [
-        "Gonçalo Galvão",
-        "Tomás Ramalho",
-        "Diogo Barbosa",
-        "Francisco Caldeira",
-        "Simão Rebocho",
-        "Filipe Tojo",
-        "Miguel Neves",
-        "João Matos",
-        "Filipe Casquinha",
-        "Pedro Pereira",
-        "Pedro Dias",
-        "Afonso Miranda"
+        { "nome": "Gonçalo Galvão", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Tomás Ramalho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Diogo Barbosa", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Francisco Caldeira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Simão Rebocho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Filipe Tojo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Miguel Neves", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "João Matos", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Filipe Casquinha",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Pedro Pereira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Pedro Dias", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Afonso Miranda", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitão": "Luís Vieira",
       "delegado": "André Junceiro",
@@ -220,18 +405,38 @@
       "nome": "Bubacrónica",
       "curso": "Engenharia Mecatrónica",
       "jogadores": [
-        "Marco Pereira",
-        "João Consolado",
-        "João Farmigo",
-        "Eduardo Favita",
-        "Bernardo Francisco",
-        "Guilherme Castanho",
-        "Francisco Atela",
-        "Julio Furtado",
-        "Paulo Pestana",
-        "Daniel Sacoto",
-        "Miguel Tojo",
-        "Francisco Martins"
+        { "nome": "Marco Pereira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "João Consolado", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "João Farmigo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Eduardo Favita", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Bernardo Francisco",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Guilherme Castanho",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Francisco Atela",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Julio Furtado", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Paulo Pestana", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Daniel Sacoto", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Miguel Tojo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Francisco Martins",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        }
       ],
       "capitão": "Paulo Pestana",
       "delegado": "João Cruz",
@@ -241,18 +446,53 @@
       "nome": "FC Agronomia",
       "curso": "Agronomia",
       "jogadores": [
-        "Jorge Narigueta",
-        "Alexandre Jorge",
-        "Miguel Pereira",
-        "João Ramalho",
-        "Filipe Rodrigues",
-        "Gonçalo Gonçalves",
-        "Cristiano Côdea",
-        "Daniel Machado",
-        "Alexandre Pereira",
-        "António Franco",
-        "Lucas Sousa",
-        "Gonçalo Carvalho"
+        {
+          "nome": "Jorge Narigueta",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Alexandre Jorge",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Miguel Pereira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "João Ramalho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome ": "Filipe Rodrigues",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Gonçalo Gonçalves",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Cristiano Côdea",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Daniel Machado", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Alexandre Pereira",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "António Franco", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Lucas Sousa", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Gonçalo Carvalho",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        }
       ],
       "capitão": "Alexandre Jorge",
       "delegado": "Rui Teles",
@@ -262,18 +502,48 @@
       "nome": "20Vencer",
       "curso": "história e Arqueologia",
       "jogadores": [
-        "Tiago Correia",
-        "Diogo Silva",
-        "Gonçalo Charrua",
-        "António Vinagre",
-        "Francisco Santos",
-        "André Guerreiro",
-        "Filipe Cavaco",
-        "Gonçalo Elias",
-        "Afonso Carvalho",
-        "José Gonçalves",
-        "Rodrigo Elias",
-        "Sérgio Bolotinha"
+        { "nome": "Tiago Correia", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Diogo Silva", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Gonçalo Charrua",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "António Vinagre",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "Francisco Santos",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "André Guerreiro",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Filipe Cavaco", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Gonçalo Elias", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Afonso Carvalho",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "José Gonçalves", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Rodrigo Elias", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Sérgio Bolotinha",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        }
       ],
       "capitão": "Gonçalo Elias",
       "delegado": "Rodrigo Elias",
@@ -283,16 +553,31 @@
       "nome": "Flops Fc",
       "curso": "Geografia",
       "jogadores": [
-        "João Paixão",
-        "Emanuel Esteves",
-        "Tiago Carola",
-        "Filipe Rasteiro",
-        "José Lemos",
-        "João Cipriano",
-        "Afonso Filipe",
-        "Tomás Alexandre",
-        "João Gaitas",
-        "Tomás Pona"
+        { "nome": "João Paixão", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Emanuel Esteves",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Tiago Carola", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Filipe Rasteiro",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "José Lemos", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "João Cipriano", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Afonso Filipe", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Tomás Alexandre",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "João Gaitas", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Tomás Pona", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitão": "Tomás Pona",
       "delegado": "Paulo dos Santos",
@@ -302,15 +587,30 @@
       "nome": "Chocapics do Lidl",
       "curso": "Ciências do Desporto",
       "jogadores": [
-        "Nelson Silva",
-        "António Serrano",
-        "António Conceição",
-        "Angelo Romão",
-        "Fernando Ferro",
-        "Bernardo Saraiva",
-        "Pedro Vicente",
-        "Pedro Reis",
-        "Gonaço Ambrósio"
+        { "nome": "Nelson Silva", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "António Serrano",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        {
+          "nome": "António Conceição",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Angelo Romão", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Fernando Ferro", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        {
+          "nome": "Bernardo Saraiva",
+          "golos": 0,
+          "amarelos": 0,
+          "vermelhos": 0
+        },
+        { "nome": "Pedro Vicente", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Pedro Reis", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Gonaço Ambrósio", "golos": 0, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitão": "Pedro Reis",
       "delegado": "Angelo Romão",

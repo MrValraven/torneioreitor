@@ -3,10 +3,10 @@ import EquipaTable from "../equipaTable/EquipaTable";
 
 import "./styles.scss";
 
-const GrupoCard = () => {
+const GrupoCard = ({ groupName, grupo }) => {
   return (
     <div className="grupoCard">
-      <h2>Grupo A</h2>
+      <h2>{groupName}</h2>
       <table>
         <tr>
           <th>Posição</th>
@@ -20,14 +20,21 @@ const GrupoCard = () => {
           <th>Diferença de golos</th>
           <th>Pontos</th>
         </tr>
-        <EquipaTable posicao="1" nome="Economia" />
-        <EquipaTable
-          posicao="2"
-          nome="Laranja Mecânica (Ciências do Desporto)"
-        />
-        <EquipaTable posicao="3" nome="Imperiais (Relações Internacionais)" />
-        <EquipaTable posicao="4" nome="Biologia" />
-        <EquipaTable posicao="5" nome="TERMO Boys (Medicina Veterinária)" />
+        {grupo?.map((equipa, index) => (
+          <EquipaTable
+            key={equipa.nome}
+            posicao={index + 1}
+            nome={equipa.nome}
+            jogos={equipa.jogos}
+            vitorias={equipa.vitorias}
+            empates={equipa.empates}
+            derrotas={equipa.derrotas}
+            marcados={equipa.marcados}
+            sofridos={equipa.sofridos}
+            diferencaDeGolos={equipa.diferencaDeGolos}
+            pontos={equipa.pontos}
+          />
+        ))}
       </table>
     </div>
   );
