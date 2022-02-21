@@ -7,7 +7,7 @@ const Contactos = () => {
   return (
     <div className="contactos">
       <div className="other-info">
-        <h1>Inscrições</h1>
+        <h1>Contactos</h1>
         <p>Tens dúvidas? Não hesites em contactar-nos!</p>
       </div>
       <Form></Form>
