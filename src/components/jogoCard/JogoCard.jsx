@@ -2,6 +2,7 @@ import React from "react";
 
 import "./styles.scss";
 
+
 const JogoCard = ({ data, equipa1, equipa2 }) => {
   return (
     <div className="jogoCard">
