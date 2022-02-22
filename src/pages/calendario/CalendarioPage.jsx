@@ -44,7 +44,7 @@ const CalendarioPage = () => {
 
   return (
     <div className="calendarPage">
-      <h1>Calendario</h1>
+      <h1>Calendário</h1>
       <input
         type="text"
         placeholder="Pesquisa por Equipa ex.: Valentino FC"
