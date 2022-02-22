@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "data": "23022022",
+    "data": "20220223",
     "hora": "18h40",
     "equipa1": "Paris Saint Galinha",
     "equipa2": "Os Mais-Valias",
@@ -9,7 +9,7 @@
   },
   {
     "id": 1,
-    "data": "23022022",
+    "data": "20220223",
     "hora": "19h30",
     "equipa1": "FC Agronomia",
     "equipa2": "RI C",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "data": "23022022",
+    "data": "20220223",
     "hora": "20h20",
     "equipa1": "Tomé",
     "equipa2": "Palpa Vacas",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "data": "23022022",
+    "data": "20220223",
     "hora": "21h10",
     "equipa1": "Equipo Elite",
     "equipa2": "Shotless",
@@ -33,7 +33,7 @@
   },
   {
     "id": 4,
-    "data": "02032022",
+    "data": "20220302",
     "hora": "18h40",
     "equipa1": "La Bela Mafia",
     "equipa2": "Buba Crónica",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "data": "02032022",
+    "data": "20220302",
     "hora": "19h30",
     "equipa1": "Lenhaaa",
     "equipa2": "Paris Saint Galinha",
@@ -49,7 +49,7 @@
   },
   {
     "id": 6,
-    "data": "02032022",
+    "data": "20220302",
     "hora": "20h20",
     "equipa1": "FC Agronomia",
     "equipa2": "Economia",
@@ -57,7 +57,7 @@
   },
   {
     "id": 7,
-    "data": "02032022",
+    "data": "20220302",
     "hora": "21h10",
     "equipa1": "20Vencer",
     "equipa2": "Blue Ballz",
@@ -65,7 +65,7 @@
   },
   {
     "id": 8,
-    "data": "09032022",
+    "data": "20220309",
     "hora": "18h40",
     "equipa1": "Lenhaaa",
     "equipa2": "Flops FC",
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "data": "09032022",
+    "data": "20220309",
     "hora": "19h30",
     "equipa1": "Chocapic do LIDL",
     "equipa2": "Economia",
@@ -81,7 +81,7 @@
   },
   {
     "id": 10,
-    "data": "09032022",
+    "data": "20220309",
     "hora": "20h20",
     "equipa1": "Tomé ",
     "equipa2": "20Vencer",
@@ -89,7 +89,7 @@
   },
   {
     "id": 11,
-    "data": "09032022",
+    "data": "20220309",
     "hora": "21H10",
     "equipa1": "La Bela Mafia",
     "equipa2": "Equipo Elite",
@@ -97,7 +97,7 @@
   },
   {
     "id": 12,
-    "data": "16032022",
+    "data": "20220316",
     "hora": "18h40",
     "equipa1": "Buba Crónica",
     "equipa2": "Shotless",
@@ -105,7 +105,7 @@
   },
   {
     "id": 13,
-    "data": "16032022",
+    "data": "20220316",
     "hora": "19h30",
     "equipa1": "Flopes FC",
     "equipa2": "Os Mais-Valias",
@@ -113,7 +113,7 @@
   },
   {
     "id": 14,
-    "data": "16032022",
+    "data": "20220316",
     "hora": "20h20",
     "equipa1": "Economia",
     "equipa2": "RI C",
@@ -121,7 +121,7 @@
   },
   {
     "id": 15,
-    "data": "16032022",
+    "data": "20220316",
     "hora": "21H10",
     "equipa1": "Palpa Vacas",
     "equipa2": "Blue Ballz",
@@ -129,7 +129,7 @@
   },
   {
     "id": 16,
-    "data": "23032022",
+    "data": "20220323",
     "hora": "18h40",
     "equipa1": "Bubca Crónica",
     "equipa2": "Equipo Elite",
@@ -137,7 +137,7 @@
   },
   {
     "id": 17,
-    "data": "23032022",
+    "data": "20220323",
     "hora": "19h30",
     "equipa1": "Chocapic do LIDL",
     "equipa2": "FC Agronomia",
@@ -145,7 +145,7 @@
   },
   {
     "id": 18,
-    "data": "23032022",
+    "data": "20220323",
     "hora": "20h20",
     "equipa1": "Flopes FC",
     "equipa2": "Paris Saint Galinha",
@@ -153,7 +153,7 @@
   },
   {
     "id": 19,
-    "data": "23032022",
+    "data": "20220323",
     "hora": "21H10",
     "equipa1": "Tomé",
     "equipa2": "Blue Ballz",
@@ -161,7 +161,7 @@
   },
   {
     "id": 20,
-    "data": "06042022",
+    "data": "20220406",
     "hora": "18h40",
     "equipa1": "Palpa Vacas",
     "equipa2": "20Vencer",
@@ -169,7 +169,7 @@
   },
   {
     "id": 21,
-    "data": "06042022",
+    "data": "20220406",
     "hora": "19h30",
     "equipa1": "Chocapic do LIDL",
     "equipa2": "RI C",
@@ -177,7 +177,7 @@
   },
   {
     "id": 22,
-    "data": "06042022",
+    "data": "20220406",
     "hora": "20h20",
     "equipa1": "Lenhaaa",
     "equipa2": "Os Mais-Valias",
@@ -185,7 +185,7 @@
   },
   {
     "id": 23,
-    "data": "06042022",
+    "data": "20220406",
     "hora": "21H10",
     "equipa1": "La Bela Mafia",
     "equipa2": "Shotless",
@@ -193,7 +193,7 @@
   },
   {
     "id": 24,
-    "data": "13042022",
+    "data": "20220413",
     "hora": "18h40",
     "equipa1": "1º Grupo A",
     "equipa2": "2º Grupo C",
@@ -202,7 +202,7 @@
   },
   {
     "id": 25,
-    "data": "13042022",
+    "data": "20220413",
     "hora": "19h30",
     "equipa1": "1º Grupo B",
     "equipa2": "2º Grupo D",
@@ -211,7 +211,7 @@
   },
   {
     "id": 26,
-    "data": "13042022",
+    "data": "20220413",
     "hora": "20h20",
     "equipa1": "1º Grupo C",
     "equipa2": "2º Grupo A",
@@ -220,7 +220,7 @@
   },
   {
     "id": 27,
-    "data": "13042022",
+    "data": "20220413",
     "hora": "21h1018h40",
     "equipa1": "1º Grupo D",
     "equipa2": "2º Grupo B",
@@ -229,7 +229,7 @@
   },
   {
     "id": 28,
-    "data": "20042022",
+    "data": "20220420",
     "hora": "20h20",
     "equipa1": "Vencedor jogo 1",
     "equipa2": "Vencedor jogo 3",
@@ -238,7 +238,7 @@
   },
   {
     "id": 29,
-    "data": "20042022",
+    "data": "20220420",
     "hora": "21h10",
     "equipa1": "Vencedor jogo 2",
     "equipa2": "Vencedor jogo 4",
@@ -247,7 +247,7 @@
   },
   {
     "id": 30,
-    "data": "27042022",
+    "data": "20220427",
     "hora": "21h10",
     "equipa1": "Vencedor da Meia Final",
     "equipa2": "Vencedor da Meia Final",

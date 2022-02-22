@@ -16,8 +16,8 @@ const CalendarioGameCard = ({ jogo }) => {
   };
 
   const formatDate = (date) => {
-    const day = date[0] + date[1];
-    const month = date[2] + date[3];
+    const day = date[6] + date[7];
+    const month = date[4] + date[5];
 
     return `${day} ${getMonth(month)}, 2022`;
   };
@@ -34,7 +34,7 @@ const CalendarioGameCard = ({ jogo }) => {
       </div>
 
       <a
-        href="https://goo.gl/maps/hMu13iR5NiM2"
+        href="https://goo.gl/maps/daXSCGtP3rDmhPyZA"
         target="_blank"
         rel="noreferrer"
       >

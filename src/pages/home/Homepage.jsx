@@ -24,11 +24,16 @@ const Homepage = () => {
   const [nextGames, setNextGames] = useState([]);
 
   useEffect(() => {
-    console.log(parseInt(calendario[5].data.split("").reverse().join("")));
     setNextGames(
       calendario
         .filter(
-          (jogo) => parseInt(jogo.data.split("").reverse().join("")) >= 22023060
+          (jogo) =>
+            parseInt(jogo.data) >=
+            parseInt(
+              `${currentDate.getFullYear()}0${
+                currentDate.getMonth() + 1
+              }${currentDate.getDate()}`
+            )
         )
         .splice(0, 4)
     );
@@ -42,8 +47,8 @@ const Homepage = () => {
           {nextGames.map((nextGame) => (
             <JogoCard
               key={nextGame.id}
-              data={`${nextGame.data.slice(0, 2)} ${getCurrentMonth(
-                nextGame.data.slice(3, 4)[0] - 1
+              data={`${nextGame.data.slice(6, 8)} ${getCurrentMonth(
+                nextGame.data.slice(5, 6)[0] - 1
               )}, 2022 | ${nextGame.hora}`}
               equipa1={nextGame.equipa1}
               equipa2={nextGame.equipa2}
