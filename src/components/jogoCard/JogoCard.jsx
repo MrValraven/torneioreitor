@@ -8,9 +8,9 @@ const JogoCard = ({ data, equipa1, equipa2 }) => {
     <div className="jogoCard">
       <h3>{data}</h3>
       <div className="equipas">
-        <p>💻 {equipa1} 💻</p>
+        <p> {equipa1} </p>
         <p className="vs">VS</p>
-        <p>🔱 {equipa2} 🔱</p>
+        <p> {equipa2} </p>
       </div>
     </div>
   );
