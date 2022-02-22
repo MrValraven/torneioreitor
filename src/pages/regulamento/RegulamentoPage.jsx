@@ -12,7 +12,7 @@ const RegulamentoPage = () => {
         <h1>Regulamento</h1>
         <p>
           Faz aqui o{" "}
-          <a href={Regulamento}>
+          <a href={Regulamento} download>
             <span>download</span>
           </a>{" "}
           da folha com o regulamento do torneio!
