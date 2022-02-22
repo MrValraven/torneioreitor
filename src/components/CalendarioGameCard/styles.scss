@@ -6,10 +6,41 @@
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  border: 1px solid #581011;
 
-  p {
-    margin: 10px 0;
+  .data {
+    opacity: 0.4;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+  }
+
+  .equipas {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+    font-size: 1.3rem;
+    width: 100%;
+
+    p {
+      margin: 0 20px;
+      &:nth-child(2) {
+        opacity: 0.4;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  a {
+    span {
+      margin-left: 8px;
+    }
+  }
+}
+
+@media (max-width: 1800px) {
+  .calendarioGameCard {
+    width: 100%;
   }
 }

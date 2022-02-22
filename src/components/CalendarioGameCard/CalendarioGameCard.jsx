@@ -23,13 +23,24 @@ const CalendarioGameCard = ({ jogo }) => {
   };
   return (
     <div className="calendarioGameCard">
-      <p>
-        {jogo.hora} | {formatDate(jogo.data)}
+      <p className="data">
+        {jogo.hora} | {formatDate(jogo.data)}{" "}
+        {jogo.pormenor ? `| ${jogo?.pormenor}` : null}
       </p>
-      <p>{jogo.equipa1}</p>
-      <p>{jogo.resultado}</p>
-      <p>{jogo.equipa2}</p>
-      <p>Pavilhao da universidade de evora </p> {/* Link aqui */}
+      <div className="equipas">
+        <p>{jogo.equipa1}</p>
+        <p>{jogo.resultado}</p>
+        <p>{jogo.equipa2}</p>
+      </div>
+
+      <a
+        href="https://goo.gl/maps/hMu13iR5NiM2"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fas fa-map-marker-alt icon" aria-hidden="true"></i>
+        <span>Pavilhão da Universidade de Évora</span>
+      </a>
     </div>
   );
 };

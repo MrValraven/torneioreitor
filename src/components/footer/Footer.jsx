@@ -27,7 +27,11 @@ const Footer = () => {
         <h2>Localização</h2>
         <ul>
           <li>
-            <a href="https://goo.gl/maps/hMu13iR5NiM2">
+            <a
+              href="https://goo.gl/maps/hMu13iR5NiM2"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fas fa-map-marker-alt icon" aria-hidden="true">
                 <span>Morada</span>
               </i>
@@ -35,7 +39,11 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://goo.gl/maps/hMu13iR5NiM2">
+            <a
+              href="https://goo.gl/maps/daXSCGtP3rDmhPyZA"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fas fa-map-marker-alt icon" aria-hidden="true">
                 <span>Jogos:</span>
               </i>
