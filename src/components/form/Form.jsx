@@ -19,9 +19,46 @@ const Form = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  /* const handleSubmit = async (e) => {
     e.preventDefault();
-  };
+
+    if (!this.isFormFilled) {
+      return;
+    }
+
+    const formData = {
+      sendTo: "@aaue.pt",
+        subject: this.assunto,
+        message: {
+          origem: "AAUE.pt",
+          name: this.name,
+          email: this.email,
+          text: this.mensagem,
+        },
+      };
+      const requestOptions = {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      };
+      await fetch(
+        "https://blogposting-api.herokuapp.com/api/sendEmail",
+        requestOptions
+      )
+        .then(async (data) => {
+          if (data.ok) {
+            this.emailSent = true;
+            this.clearFormInfo();
+          }
+        })
+        .catch((error) => {
+          this.emailFailed = true;
+          console.log(error.message);
+        });
+    },
+  }; */
 
   return (
     <div>

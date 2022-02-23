@@ -19,3 +19,31 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .contactos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .other-info {
+      margin-bottom: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .contactos {
+    .other-info {
+      text-align: center;
+      h1 {
+        font-size: 40px;
+      }
+    }
+  }
+}

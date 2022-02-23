@@ -30,3 +30,53 @@
     }
   }
 }
+
+@media (max-width: 1100px) {
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    .heroText {
+      max-width: 100%;
+      text-align: center;
+
+      h1 {
+        font-size: 70px;
+      }
+
+      p {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .hero {
+    .heroImage {
+      max-width: 70%;
+    }
+    .heroText {
+      max-width: 100%;
+      text-align: center;
+
+      h1 {
+        font-size: 60px;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .hero {
+    .heroImage {
+      max-width: 100%;
+    }
+    .heroText {
+      max-width: 100%;
+      text-align: center;
+
+      h1 {
+        font-size: 50px;
+      }
+    }
+  }
+}
