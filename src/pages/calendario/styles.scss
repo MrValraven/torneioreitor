@@ -29,3 +29,22 @@
   justify-content: center;
   width: 40%;
 }
+
+@media (max-width: 1000px) {
+  .calendarPage {
+    input {
+      width: 100%;
+    }
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .calendarioContainer {
+    width: 100%;
+  }
+
+  .calendarioGamesOverview {
+    width: 100%;
+  }
+}

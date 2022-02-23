@@ -53,3 +53,46 @@
     cursor: pointer;
   }
 }
+
+@media (max-width: 1300px) {
+  .numerosDosDias {
+    p {
+      padding: 10px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .numerosDosDias {
+    p {
+      padding: 10px 30px;
+    }
+  }
+}
+@media (max-width: 650px) {
+  .numerosDosDias {
+    p {
+      padding: 10px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .calendario {
+    padding: 50px 5px;
+  }
+
+  .numerosDosDias {
+    grid-template-columns: repeat(7, 1fr);
+    p {
+      padding: 10px 5px;
+      margin: 2px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .calendario {
+    display: none;
+  }
+}
