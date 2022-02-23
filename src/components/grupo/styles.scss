@@ -13,3 +13,9 @@
     text-align: start;
   }
 }
+
+@media (max-width: 600px) {
+  .grupoCard {
+    padding: 30px 10px;
+  }
+}

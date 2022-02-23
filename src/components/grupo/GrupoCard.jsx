@@ -9,16 +9,27 @@ const GrupoCard = ({ groupName, grupo }) => {
       <h2>{groupName}</h2>
       <table>
         <tr>
-          <th>Posição</th>
-          <th className="equipa">Equipa</th>
-          <th>Jogos</th>
-          <th>Vitórias</th>
-          <th>Empates</th>
-          <th>Derrotas</th>
-          <th>Marcados</th>
-          <th>Sofridos</th>
-          <th>Diferença de golos</th>
-          <th>Pontos</th>
+          <th>{window.innerWidth >= 1050 ? "Posição" : "Pos"}</th>
+          <th className="equipa">
+            {window.innerWidth >= 1050 ? "Equipa" : "E"}
+          </th>
+          {window.innerWidth >= 600 ? (
+            <th>{window.innerWidth >= 1050 ? "Jogos" : "J"}</th>
+          ) : null}
+
+          <th>{window.innerWidth >= 1050 ? "Vitórias" : "V"}</th>
+          <th>{window.innerWidth >= 1050 ? "Empates" : "E"}</th>
+          <th>{window.innerWidth >= 1050 ? "Derrotas" : "D"}</th>
+          {window.innerWidth >= 600 ? (
+            <>
+              <th>{window.innerWidth >= 1050 ? "Marcados" : "G/M"}</th>
+              <th>{window.innerWidth >= 1050 ? "Sofridos" : "G/S"}</th>
+              <th>
+                {window.innerWidth >= 1050 ? "Diferença de golos" : "D/G"}
+              </th>
+            </>
+          ) : null}
+          <th>{window.innerWidth >= 1050 ? "Pontos" : "P"}</th>
         </tr>
         {grupo?.map((equipa, index) => (
           <EquipaTable

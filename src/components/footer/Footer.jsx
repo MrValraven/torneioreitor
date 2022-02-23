@@ -63,7 +63,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="contactos">
+      <div className="contactosFooter">
         <h2>Emails</h2>
         <ul>
           <li>

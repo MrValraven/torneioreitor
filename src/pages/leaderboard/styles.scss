@@ -18,3 +18,9 @@ td {
 tr th {
   color: #d82529;
 }
+
+@media (max-width: 500px) {
+  .table-container {
+    padding: 30px 10px;
+  }
+}
