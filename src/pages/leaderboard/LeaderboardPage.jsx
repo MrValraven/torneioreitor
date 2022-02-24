@@ -49,22 +49,26 @@ const LeaderboardPage = () => {
       <h1>Leaderboard de jogadores</h1>
       <div className="table-container">
         <table>
-          <tr>
-            <th>{windowWidth >= 450 ? "Jogador" : "J"}</th>
-            <th>{windowWidth >= 450 ? "Golos" : "G"}</th>
-            <th>{windowWidth >= 450 ? "Cartões Amarelos" : "C/A"}</th>
-            <th>{windowWidth >= 450 ? "Cartões Vermelhos" : "C/V"}</th>
-          </tr>
-          {jogadores
-            .sort((a, b) => compareGoals(a, b))
-            .map((jogador, index) => (
-              <tr key={jogador.nome + index.toString()}>
-                <td>{jogador.nome}</td>
-                <td>{jogador.golos}</td>
-                <td>{jogador.amarelos}</td>
-                <td>{jogador.vermelhos}</td>
-              </tr>
-            ))}
+          <thead>
+            <tr>
+              <th>{windowWidth >= 450 ? "Jogador" : "J"}</th>
+              <th>{windowWidth >= 450 ? "Golos" : "G"}</th>
+              <th>{windowWidth >= 450 ? "Cartões Amarelos" : "C/A"}</th>
+              <th>{windowWidth >= 450 ? "Cartões Vermelhos" : "C/V"}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {jogadores
+              .sort((a, b) => compareGoals(a, b))
+              .map((jogador, index) => (
+                <tr key={jogador.nome + index.toString()}>
+                  <td>{jogador.nome}</td>
+                  <td>{jogador.golos}</td>
+                  <td>{jogador.amarelos}</td>
+                  <td>{jogador.vermelhos}</td>
+                </tr>
+              ))}
+          </tbody>
         </table>
       </div>
     </div>

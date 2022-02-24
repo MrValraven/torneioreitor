@@ -66,8 +66,11 @@
     }
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .hero {
+    height: 80vh;
+    padding-top: 100px;
+    margin-bottom: 50px;
     .heroImage {
       max-width: 100%;
     }
@@ -79,5 +82,29 @@
         font-size: 50px;
       }
     }
+  }
+}
+@media (max-width: 400px) {
+  .hero {
+    height: 100vh;
+    padding-top: 0;
+    .heroImage {
+      max-width: 100%;
+    }
+    .heroText {
+      max-width: 100%;
+      text-align: center;
+
+      h1 {
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+@media (min-height: 750px) and (max-height: 850px) {
+  .hero {
+    height: 80vh;
+    padding-top: 0;
   }
 }
