@@ -38,7 +38,7 @@ const Form = () => {
     }
 
     const formDataRequest = {
-      sendTo: "informatica@aaue.pt",
+      sendTo: "desportiva@aaue.pt",
       subject: formData.subject,
       message: {
         origem: "desporto.aaue.pt",
