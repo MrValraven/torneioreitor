@@ -29,6 +29,16 @@ const LeaderboardPage = () => {
     return 0;
   };
 
+  const compareGoals = (a, b) => {
+    if (a.golos > b.golos) {
+      return -1;
+    }
+    if (a.golos < b.golos) {
+      return 1;
+    }
+    return 0;
+  };
+
   useEffect(() => {
     addJogadores();
     setJogadores(jogadoresDasEquipas);
@@ -45,14 +55,16 @@ const LeaderboardPage = () => {
             <th>{windowWidth >= 450 ? "Cartões Amarelos" : "C/A"}</th>
             <th>{windowWidth >= 450 ? "Cartões Vermelhos" : "C/V"}</th>
           </tr>
-          {jogadores.sort(compareNames).map((jogador, index) => (
-            <tr key={jogador.nome + index.toString()}>
-              <td>{jogador.nome}</td>
-              <td>{jogador.golos}</td>
-              <td>{jogador.amarelos}</td>
-              <td>{jogador.vermelhos}</td>
-            </tr>
-          ))}
+          {jogadores
+            .sort((a, b) => compareGoals(a, b))
+            .map((jogador, index) => (
+              <tr key={jogador.nome + index.toString()}>
+                <td>{jogador.nome}</td>
+                <td>{jogador.golos}</td>
+                <td>{jogador.amarelos}</td>
+                <td>{jogador.vermelhos}</td>
+              </tr>
+            ))}
         </table>
       </div>
     </div>

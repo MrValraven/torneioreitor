@@ -7,6 +7,15 @@ import "./styles.scss";
 
 const GrupoCard = ({ groupName, grupo }) => {
   const { width: windowWidth } = useWindowDimensions();
+  const comparePoints = (a, b) => {
+    if (a.pontos > b.pontos) {
+      return -1;
+    }
+    if (a.pontos < b.pontos) {
+      return 1;
+    }
+    return 0;
+  };
   return (
     <div className="grupoCard">
       <h2>{groupName}</h2>
@@ -30,21 +39,23 @@ const GrupoCard = ({ groupName, grupo }) => {
           ) : null}
           <th>{windowWidth >= 1050 ? "Pontos" : "P"}</th>
         </tr>
-        {grupo?.map((equipa, index) => (
-          <EquipaTable
-            key={equipa.nome}
-            posicao={index + 1}
-            nome={equipa.nome}
-            jogos={equipa.jogos}
-            vitorias={equipa.vitorias}
-            empates={equipa.empates}
-            derrotas={equipa.derrotas}
-            marcados={equipa.marcados}
-            sofridos={equipa.sofridos}
-            diferencaDeGolos={equipa.diferencaDeGolos}
-            pontos={equipa.pontos}
-          />
-        ))}
+        {grupo
+          ?.sort((a, b) => comparePoints(a, b))
+          .map((equipa, index) => (
+            <EquipaTable
+              key={equipa.nome}
+              posicao={index + 1}
+              nome={equipa.nome}
+              jogos={equipa.jogos}
+              vitorias={equipa.vitorias}
+              empates={equipa.empates}
+              derrotas={equipa.derrotas}
+              marcados={equipa.marcados}
+              sofridos={equipa.sofridos}
+              diferencaDeGolos={equipa.diferencaDeGolos}
+              pontos={equipa.pontos}
+            />
+          ))}
       </table>
     </div>
   );
