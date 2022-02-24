@@ -1,35 +1,34 @@
 import React from "react";
 import EquipaTable from "../equipaTable/EquipaTable";
 
+import useWindowDimensions from "../../hooks/useWindowDimensions";
+
 import "./styles.scss";
 
 const GrupoCard = ({ groupName, grupo }) => {
+  const { width: windowWidth } = useWindowDimensions();
   return (
     <div className="grupoCard">
       <h2>{groupName}</h2>
       <table>
         <tr>
-          <th>{window.innerWidth >= 1050 ? "Posição" : "Pos"}</th>
-          <th className="equipa">
-            {window.innerWidth >= 1050 ? "Equipa" : "E"}
-          </th>
-          {window.innerWidth >= 600 ? (
-            <th>{window.innerWidth >= 1050 ? "Jogos" : "J"}</th>
+          <th>{windowWidth >= 1050 ? "Posição" : "Pos"}</th>
+          <th className="equipa">{windowWidth >= 1050 ? "Equipa" : "E"}</th>
+          {windowWidth >= 600 ? (
+            <th>{windowWidth >= 1050 ? "Jogos" : "J"}</th>
           ) : null}
 
-          <th>{window.innerWidth >= 1050 ? "Vitórias" : "V"}</th>
-          <th>{window.innerWidth >= 1050 ? "Empates" : "E"}</th>
-          <th>{window.innerWidth >= 1050 ? "Derrotas" : "D"}</th>
-          {window.innerWidth >= 600 ? (
+          <th>{windowWidth >= 1050 ? "Vitórias" : "V"}</th>
+          <th>{windowWidth >= 1050 ? "Empates" : "E"}</th>
+          <th>{windowWidth >= 1050 ? "Derrotas" : "D"}</th>
+          {windowWidth >= 600 ? (
             <>
-              <th>{window.innerWidth >= 1050 ? "Marcados" : "G/M"}</th>
-              <th>{window.innerWidth >= 1050 ? "Sofridos" : "G/S"}</th>
-              <th>
-                {window.innerWidth >= 1050 ? "Diferença de golos" : "D/G"}
-              </th>
+              <th>{windowWidth >= 1050 ? "Marcados" : "G/M"}</th>
+              <th>{windowWidth >= 1050 ? "Sofridos" : "G/S"}</th>
+              <th>{windowWidth >= 1050 ? "Diferença de golos" : "D/G"}</th>
             </>
           ) : null}
-          <th>{window.innerWidth >= 1050 ? "Pontos" : "P"}</th>
+          <th>{windowWidth >= 1050 ? "Pontos" : "P"}</th>
         </tr>
         {grupo?.map((equipa, index) => (
           <EquipaTable
