@@ -2,24 +2,24 @@
   "grupoA": [
     {
       "nome": "Tomé",
-      "jogos": 0,
-      "vitorias": 0,
+      "jogos": 1,
+      "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "marcados": 0,
+      "marcados": 3,
       "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
+      "diferencaDeGolos": 3,
+      "pontos": 3
     },
     {
       "nome": "Palpa Vacas",
-      "jogos": 0,
+      "jogos": 1,
       "vitorias": 0,
       "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
+      "derrotas": 1,
+      "marcados": 3,
       "sofridos": 0,
-      "diferencaDeGolos": 0,
+      "diferencaDeGolos": -3,
       "pontos": 0
     },
     {
@@ -47,6 +47,28 @@
   ],
   "grupoB": [
     {
+      "nome": "FC Agronomia",
+      "jogos": 1,
+      "vitorias": 0,
+      "empates": 1,
+      "derrotas": 0,
+      "marcados": 2,
+      "sofridos": 2,
+      "diferencaDeGolos": 0,
+      "pontos": 1
+    },
+    {
+      "nome": "RI C",
+      "jogos": 1,
+      "vitorias": 0,
+      "empates": 1,
+      "derrotas": 0,
+      "marcados": 2,
+      "sofridos": 2,
+      "diferencaDeGolos": 0,
+      "pontos": 1
+    },
+    {
       "nome": "Chocapic do LIDL",
       "jogos": 0,
       "vitorias": 0,
@@ -67,31 +89,31 @@
       "sofridos": 0,
       "diferencaDeGolos": 0,
       "pontos": 0
-    },
-    {
-      "nome": "FC Agronomia",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
-    },
-    {
-      "nome": "RI C",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
     }
   ],
   "grupoC": [
+    {
+      "nome": "Paris Saint Galinha",
+      "jogos": 1,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 0,
+      "marcados": 4,
+      "sofridos": 2,
+      "diferencaDeGolos": 2,
+      "pontos": 3
+    },
+    {
+      "nome": "Os Mais-Valias",
+      "jogos": 1,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "marcados": 2,
+      "sofridos": 4,
+      "diferencaDeGolos": -2,
+      "pontos": 0
+    },
     {
       "nome": "Lenhaaa",
       "jogos": 0,
@@ -113,31 +135,31 @@
       "sofridos": 0,
       "diferencaDeGolos": 0,
       "pontos": 0
-    },
-    {
-      "nome": "Paris Saint Galinha",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
-    },
-    {
-      "nome": "Os Mais-Valias",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
     }
   ],
   "grupoD": [
+    {
+      "nome": "Equipo Elite",
+      "jogos": 1,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 0,
+      "marcados": 2,
+      "sofridos": 1,
+      "diferencaDeGolos": 1,
+      "pontos": 3
+    },
+    {
+      "nome": "Shotless",
+      "jogos": 1,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "marcados": 1,
+      "sofridos": 2,
+      "diferencaDeGolos": -1,
+      "pontos": 0
+    },
     {
       "nome": "La Bela Mafia",
       "jogos": 0,
@@ -151,28 +173,6 @@
     },
     {
       "nome": "BubaCrónica",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
-    },
-    {
-      "nome": "Equipo Elite",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
-    },
-    {
-      "nome": "Shotless",
       "jogos": 0,
       "vitorias": 0,
       "empates": 0,

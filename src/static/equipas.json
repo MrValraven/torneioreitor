@@ -90,8 +90,8 @@
         { "nome": "José Lavado", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Miguel Candeias",
-          "golos": 0,
-          "amarelos": 0,
+          "golos": 1,
+          "amarelos": 1,
           "vermelhos": 0
         },
         {
@@ -102,7 +102,7 @@
         },
         { "nome": "José Ferreira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Tiago Vaz", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "José Silva", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "José Silva", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Henrique Batista",
           "golos": 0,
@@ -125,7 +125,7 @@
           "amarelos": 0,
           "vermelhos": 0
         },
-        { "nome": "Fábio Silva", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Fábio Silva", "golos": 0, "amarelos": 1, "vermelhos": 0 },
         { "nome": "Miguel Anada", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Jorge Matos", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Gonçalo Pato", "golos": 0, "amarelos": 0, "vermelhos": 0 },
@@ -144,7 +144,7 @@
       "nome": "RI C",
       "curso": "Relações Internacionais",
       "jogadores": [
-        { "nome": "Jaime Rente", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Jaime Rente", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Diogo Russo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Pedro Rodrigues",
@@ -159,7 +159,7 @@
           "amarelos": 0,
           "vermelhos": 0
         },
-        { "nome": "Ezequiel Lopes", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Ezequiel Lopes", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Bernardo Bastos",
           "golos": 0,
@@ -189,18 +189,18 @@
         },
         {
           "nome": "Francisco Serrão",
-          "golos": 0,
+          "golos": 1,
           "amarelos": 0,
           "vermelhos": 0
         },
         { "nome": "Issufo Mango", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Tomás Bonacho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Ricardo Coelho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Martim Rose", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Diogo Carvalho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Martim Rosa", "golos": 1, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Diogo Carvalho", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         { "nome": "David Monteigo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Afonso Ceriaco", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Miguel Cardoso", "golos": 0, "amarelos": 0, "vermelhos": 0 }
+        { "nome": "Miguel Cardoso", "golos": 1, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitao": "Issufo Mango",
       "delegado": "Francisco Serrão",
@@ -277,8 +277,8 @@
         { "nome": "João Varela", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "João Leal", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "João Leal", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Francisco Ginó", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Luis Jorge", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Francisco Ginó", "golos": 1, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Luis Jorge", "golos": 0, "amarelos": 1, "vermelhos": 0 },
         {
           "nome": "Bernardo Rechestre",
           "golos": 0,
@@ -293,7 +293,7 @@
         },
         {
           "nome": "Francisco Esporeta",
-          "golos": 0,
+          "golos": 1,
           "amarelos": 0,
           "vermelhos": 0
         },
@@ -357,14 +357,14 @@
         },
         { "nome": "Tomás Aleixo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Cláudio Rosa", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Afonso Ruivo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Afonso Ruivo", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Luís Carvalinho",
-          "golos": 0,
+          "golos": 1,
           "amarelos": 0,
           "vermelhos": 0
         },
-        { "nome": "Tiago Dordio", "golos": 0, "amarelos": 0, "vermelhos": 0 }
+        { "nome": "Tiago Dordio", "golos": 1, "amarelos": 0, "vermelhos": 0 }
       ],
       "capitão": "Ricardo Mendonça",
       "delegado": "",
@@ -384,8 +384,8 @@
           "vermelhos": 0
         },
         { "nome": "Simão Rebocho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Filipe Tojo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Miguel Neves", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Filipe Tojo", "golos": 0, "amarelos": 1, "vermelhos": 0 },
+        { "nome": "Miguel Neves", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         { "nome": "João Matos", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Filipe Casquinha",
@@ -454,8 +454,8 @@
         },
         {
           "nome": "Alexandre Jorge",
-          "golos": 0,
-          "amarelos": 0,
+          "golos": 2,
+          "amarelos": 1,
           "vermelhos": 0
         },
         { "nome": "Miguel Pereira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
