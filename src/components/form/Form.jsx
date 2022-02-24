@@ -11,54 +11,69 @@ const Form = () => {
     subject: "",
     message: "",
   });
+  const [isFormFilled, setIsFormFilled] = useState(false);
 
   const handleChange = (e) => {
     setFormData((previousState) => ({
       ...previousState,
       [e.target.name]: e.target.value,
     }));
+    if (
+      formData.name.length > 0 &&
+      formData.email.includes("@") &&
+      formData.subject.length > 0 &&
+      formData.message.length > 0
+    ) {
+      setIsFormFilled(true);
+    } else {
+      setIsFormFilled(false);
+    }
   };
 
-  /* const handleSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!this.isFormFilled) {
+    if (!isFormFilled) {
       return;
     }
 
-    const formData = {
-      sendTo: "@aaue.pt",
-        subject: this.assunto,
-        message: {
-          origem: "AAUE.pt",
-          name: this.name,
-          email: this.email,
-          text: this.mensagem,
-        },
-      };
-      const requestOptions = {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      };
-      await fetch(
-        "https://blogposting-api.herokuapp.com/api/sendEmail",
-        requestOptions
-      )
-        .then(async (data) => {
-          if (data.ok) {
-            this.emailSent = true;
-            this.clearFormInfo();
-          }
-        })
-        .catch((error) => {
-          this.emailFailed = true;
-          console.log(error.message);
-        });
-    },
-  }; */
+    const formDataRequest = {
+      sendTo: "desportiva@aaue.pt",
+      subject: formData.subject,
+      message: {
+        origem: "desporto.aaue.pt",
+        name: formData.name,
+        email: formData.email,
+        text: formData.message,
+      },
+    };
+
+    const requestOptions = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formDataRequest),
+    };
+
+    await fetch(
+      "https://blogposting-api.herokuapp.com/api/sendEmail",
+      requestOptions
+    )
+      .then((data) => {
+        if (data.ok) {
+          setFormData({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
+        }
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
 
   return (
     <div>

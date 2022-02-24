@@ -7,11 +7,7 @@ import calendario from "../../static/calendario.json";
 import "./styles.scss";
 
 const filterGames = (filter) => {
-  /* if (date) {
-    return calendario?.filter((game) => {
-      return game.data.includes(date);
-    });
-  } */ if (filter === "") {
+  if (filter === "") {
     return calendario;
   }
 
@@ -27,6 +23,7 @@ const filterGames = (filter) => {
 
 const CalendarioPage = () => {
   const [searchQueryParams, setSearchQueryParams] = useState("");
+  const [dateFilter, setDateFilter] = useState("");
 
   const [games, setGames] = useState([]);
 
@@ -34,9 +31,36 @@ const CalendarioPage = () => {
     setSearchQueryParams(e.target.value);
   };
 
+  const filterGamesByDate = (filter) => {
+    if (filter === "") {
+      return calendario;
+    }
+
+    if (filter.includes("Fevereiro")) {
+      filter = filter.replace("Fevereiro", "02");
+    } else if (filter.includes("Março")) {
+      filter = filter.replace("Março", "03");
+    } else if (filter.includes("Abril")) {
+      filter = filter.replace("Abril", "04");
+    }
+
+    setDateFilter(filter);
+
+    filter = filter.replaceAll("/", "");
+
+    return calendario?.filter((game) => {
+      return game.data === filter;
+    });
+  };
+
   useEffect(() => {
+    setDateFilter("");
     setGames(filterGames(searchQueryParams));
   }, [searchQueryParams]);
+
+  useEffect(() => {
+    setGames(filterGamesByDate(dateFilter));
+  }, [dateFilter]);
 
   useEffect(() => {
     setGames(calendario);
@@ -44,7 +68,7 @@ const CalendarioPage = () => {
 
   return (
     <div className="calendarPage">
-      <h1>Calendário</h1>
+      <h1>Calendário {dateFilter ? `| ${dateFilter}` : null}</h1>
       <input
         type="text"
         placeholder="Pesquisa por Equipa ex.: Valentino FC"
@@ -57,7 +81,7 @@ const CalendarioPage = () => {
           ))}
         </div>
         <div className="calendarioContainer">
-          <Calendar filterGames={filterGames()} />
+          <Calendar filterGamesByDate={filterGamesByDate} />
         </div>
       </div>
     </div>

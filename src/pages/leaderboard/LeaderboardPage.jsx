@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import equipas from "../../static/equipas.json";
 
 import "./styles.scss";
@@ -7,6 +7,7 @@ import "./styles.scss";
 const LeaderboardPage = () => {
   const jogadoresDasEquipas = [];
   const [jogadores, setJogadores] = useState([]);
+  const { width: windowWidth } = useWindowDimensions();
 
   const addJogadores = () => {
     for (let index = 0; index < equipas.epoca2022.length; index++) {
@@ -39,10 +40,10 @@ const LeaderboardPage = () => {
       <div className="table-container">
         <table>
           <tr>
-            <th>{window.innerWidth >= 450 ? "Jogador" : "J"}</th>
-            <th>{window.InnerWidth >= 450 ? "Golos" : "G"}</th>
-            <th>{window.InnerWidth >= 450 ? "Cartões Amarelos" : "C/A"}</th>
-            <th>{window.InnerWidth >= 450 ? "Cartões Vermelhos" : "C/V"}</th>
+            <th>{windowWidth >= 450 ? "Jogador" : "J"}</th>
+            <th>{windowWidth >= 450 ? "Golos" : "G"}</th>
+            <th>{windowWidth >= 450 ? "Cartões Amarelos" : "C/A"}</th>
+            <th>{windowWidth >= 450 ? "Cartões Vermelhos" : "C/V"}</th>
           </tr>
           {jogadores.sort(compareNames).map((jogador, index) => (
             <tr key={jogador.nome + index.toString()}>

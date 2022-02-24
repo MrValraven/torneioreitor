@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useRef } from "react";
 import { Switch, Route } from "react-router-dom";
 
 import Header from "./components/header/Header";
@@ -14,9 +14,10 @@ import "./App.scss";
 import Contactos from "./pages/contactos/Contactos";
 
 const App = () => {
+  const appRef = useRef(null);
   return (
-    <div className="app">
-      <Header />
+    <div className="app" ref={appRef}>
+      <Header appRef={appRef} />
       <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/api" component={ApiPage} />

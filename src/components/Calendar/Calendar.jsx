@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "./styles.scss";
 
-const Calendar = ({ filterGames }) => {
+const Calendar = ({ filterGamesByDate }) => {
   const tournamentMonths = [
     {
       nome: "Fevereiro",
@@ -34,7 +34,11 @@ const Calendar = ({ filterGames }) => {
   });
   const [index, setIndex] = useState(0);
 
-  const handleClick = (e) => {};
+  const handleClick = (e) => {
+    if (e.target.classList.contains("gameDay")) {
+      filterGamesByDate(e.target.title);
+    }
+  };
 
   useEffect(() => {
     setMonth({ ...tournamentMonths[0], index: 0 });
@@ -80,6 +84,7 @@ const Calendar = ({ filterGames }) => {
         {month.dias.map((day) => (
           <p
             key={day}
+            title={`2022/${month.nome}/${day > 9 ? day : "0" + day}`}
             className={
               (day === 23 && month.nome === "Fevereiro") ||
               (day === 2 && month.nome === "Março") ||
