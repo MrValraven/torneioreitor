@@ -1,6 +1,7 @@
 import React from "react";
 import GrupoCard from "../../components/grupo/GrupoCard";
 
+import "./styles.scss";
 import grupos from "../../static/grupos.json";
 
 const GroupPage = () => {
