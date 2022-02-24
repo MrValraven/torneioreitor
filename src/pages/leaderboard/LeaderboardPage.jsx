@@ -40,9 +40,9 @@ const LeaderboardPage = () => {
         <table>
           <tr>
             <th>{window.innerWidth >= 450 ? "Jogador" : "J"}</th>
-            <th>{window.InnerWidth >= 450 ? "Golos" : "G"}</th>
-            <th>{window.InnerWidth >= 450 ? "Cartões Amarelos" : "C/A"}</th>
-            <th>{window.InnerWidth >= 450 ? "Cartões Vermelhos" : "C/V"}</th>
+            <th>{window.innerWidth >= 450 ? "Golos" : "G"}</th>
+            <th>{window.innerWidth >= 450 ? "Cartões Amarelos" : "C/A"}</th>
+            <th>{window.innerWidth >= 450 ? "Cartões Vermelhos" : "C/V"}</th>
           </tr>
           {jogadores.sort(compareNames).map((jogador, index) => (
             <tr key={jogador.nome + index.toString()}>
