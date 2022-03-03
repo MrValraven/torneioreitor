@@ -1,6 +1,17 @@
 {
   "grupoA": [
     {
+      "nome": "20Vencer",
+      "jogos": 1,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 0,
+      "marcados": 10,
+      "sofridos": 2,
+      "diferencaDeGolos": 8,
+      "pontos": 3
+    },
+    {
       "nome": "Tomé",
       "jogos": 1,
       "vitorias": 1,
@@ -23,39 +34,28 @@
       "pontos": 0
     },
     {
-      "nome": "20Vencer",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
-    },
-    {
       "nome": "BlueBallz",
-      "jogos": 0,
+      "jogos": 1,
       "vitorias": 0,
       "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
+      "derrotas": 1,
+      "marcados": 2,
+      "sofridos": 10,
+      "diferencaDeGolos": -8,
       "pontos": 0
     }
   ],
   "grupoB": [
     {
-      "nome": "FC Agronomia",
+      "nome": "Economia",
       "jogos": 1,
-      "vitorias": 0,
-      "empates": 1,
+      "vitorias": 1,
+      "empates": 0,
       "derrotas": 0,
       "marcados": 2,
-      "sofridos": 2,
-      "diferencaDeGolos": 0,
-      "pontos": 1
+      "sofridos": 1,
+      "diferencaDeGolos": 1,
+      "pontos": 3
     },
     {
       "nome": "RI C",
@@ -69,18 +69,18 @@
       "pontos": 1
     },
     {
-      "nome": "Chocapic do LIDL",
-      "jogos": 0,
+      "nome": "FC Agronomia",
+      "jogos": 2,
       "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
+      "empates": 1,
+      "derrotas": 1,
+      "marcados": 3,
+      "sofridos": 4,
+      "diferencaDeGolos": -1,
+      "pontos": 1
     },
     {
-      "nome": "Economia",
+      "nome": "Chocapic do LIDL",
       "jogos": 0,
       "vitorias": 0,
       "empates": 0,
@@ -93,37 +93,26 @@
   ],
   "grupoC": [
     {
-      "nome": "Paris Saint Galinha",
+      "nome": "Lenhaaa",
       "jogos": 1,
       "vitorias": 1,
       "empates": 0,
       "derrotas": 0,
-      "marcados": 4,
-      "sofridos": 2,
-      "diferencaDeGolos": 2,
+      "marcados": 5,
+      "sofridos": 1,
+      "diferencaDeGolos": 4,
       "pontos": 3
     },
     {
-      "nome": "Os Mais-Valias",
-      "jogos": 1,
-      "vitorias": 0,
+      "nome": "Paris Saint Galinha",
+      "jogos": 2,
+      "vitorias": 1,
       "empates": 0,
       "derrotas": 1,
-      "marcados": 2,
-      "sofridos": 4,
+      "marcados": 5,
+      "sofridos": 7,
       "diferencaDeGolos": -2,
-      "pontos": 0
-    },
-    {
-      "nome": "Lenhaaa",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
+      "pontos": 3
     },
     {
       "nome": "Flopes FC",
@@ -134,6 +123,17 @@
       "marcados": 0,
       "sofridos": 0,
       "diferencaDeGolos": 0,
+      "pontos": 0
+    },
+    {
+      "nome": "Os Mais-Valias",
+      "jogos": 1,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 1,
+      "marcados": 2,
+      "sofridos": 4,
+      "diferencaDeGolos": -2,
       "pontos": 0
     }
   ],
@@ -150,6 +150,28 @@
       "pontos": 3
     },
     {
+      "nome": "La Bela Mafia",
+      "jogos": 1,
+      "vitorias": 0,
+      "empates": 1,
+      "derrotas": 0,
+      "marcados": 0,
+      "sofridos": 0,
+      "diferencaDeGolos": 0,
+      "pontos": 1
+    },
+    {
+      "nome": "BubaCrónica",
+      "jogos": 1,
+      "vitorias": 0,
+      "empates": 1,
+      "derrotas": 0,
+      "marcados": 0,
+      "sofridos": 0,
+      "diferencaDeGolos": 0,
+      "pontos": 1
+    },
+    {
       "nome": "Shotless",
       "jogos": 1,
       "vitorias": 0,
@@ -158,28 +180,6 @@
       "marcados": 1,
       "sofridos": 2,
       "diferencaDeGolos": -1,
-      "pontos": 0
-    },
-    {
-      "nome": "La Bela Mafia",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
-      "pontos": 0
-    },
-    {
-      "nome": "BubaCrónica",
-      "jogos": 0,
-      "vitorias": 0,
-      "empates": 0,
-      "derrotas": 0,
-      "marcados": 0,
-      "sofridos": 0,
-      "diferencaDeGolos": 0,
       "pontos": 0
     }
   ]

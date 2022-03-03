@@ -6,12 +6,12 @@
       "jogadores": [
         {
           "nome": "Samuel Teixeira",
-          "golos": 0,
+          "golos": 1,
           "amarelos": 0,
           "vermelhos": 0
         },
         { "nome": "Dinis Coutinho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Pedro Esteves", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Pedro Esteves", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         { "nome": "João Machado", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Diogo Castanheira",
@@ -48,11 +48,11 @@
         },
         {
           "nome": "Alexandre Simões",
-          "golos": 0,
+          "golos": 4,
           "amarelos": 0,
           "vermelhos": 0
         },
-        { "nome": "Luís Fernandes", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Luís Fernandes", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Tomás Brites", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Francisco Fortunato",
@@ -196,7 +196,7 @@
         { "nome": "Issufo Mango", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Tomás Bonacho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Ricardo Coelho", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Martim Rosa", "golos": 1, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Martim Rosa", "golos": 2, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Diogo Carvalho", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         { "nome": "David Monteigo", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Afonso Ceriaco", "golos": 0, "amarelos": 0, "vermelhos": 0 },
@@ -211,7 +211,7 @@
       "curso": "Economia",
       "jogadores": [
         { "nome": "Tiago Nogueira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Paulo Oliveira", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Paulo Oliveira", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         { "nome": "José Fernandes", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Tiago Figueiredo",
@@ -221,7 +221,7 @@
         },
         {
           "nome": "Ricardo Arsénio",
-          "golos": 0,
+          "golos": 1,
           "amarelos": 0,
           "vermelhos": 0
         },
@@ -454,7 +454,7 @@
         },
         {
           "nome": "Alexandre Jorge",
-          "golos": 2,
+          "golos": 3,
           "amarelos": 1,
           "vermelhos": 0
         },
@@ -503,7 +503,7 @@
       "curso": "história e Arqueologia",
       "jogadores": [
         { "nome": "Tiago Correia", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Diogo Silva", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Diogo Silva", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Gonçalo Charrua",
           "golos": 0,
@@ -512,7 +512,7 @@
         },
         {
           "nome": "António Vinagre",
-          "golos": 0,
+          "golos": 1,
           "amarelos": 0,
           "vermelhos": 0
         },
@@ -528,7 +528,7 @@
           "amarelos": 0,
           "vermelhos": 0
         },
-        { "nome": "Filipe Cavaco", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Filipe Cavaco", "golos": 1, "amarelos": 0, "vermelhos": 0 },
         { "nome": "Gonçalo Elias", "golos": 0, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Afonso Carvalho",
@@ -536,11 +536,11 @@
           "amarelos": 0,
           "vermelhos": 0
         },
-        { "nome": "José Gonçalves", "golos": 0, "amarelos": 0, "vermelhos": 0 },
-        { "nome": "Rodrigo Elias", "golos": 0, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "José Gonçalves", "golos": 2, "amarelos": 0, "vermelhos": 0 },
+        { "nome": "Rodrigo Elias", "golos": 4, "amarelos": 0, "vermelhos": 0 },
         {
           "nome": "Sérgio Bolotinha",
-          "golos": 0,
+          "golos": 1,
           "amarelos": 0,
           "vermelhos": 0
         }
