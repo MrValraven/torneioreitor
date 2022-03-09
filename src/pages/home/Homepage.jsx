@@ -24,13 +24,6 @@ const Homepage = () => {
   const [nextGames, setNextGames] = useState([]);
 
   useEffect(() => {
-    console.log(
-      parseInt(
-        `${currentDate.getFullYear()}0${
-          currentDate.getMonth() + 1
-        }${currentDate.getDate()}`
-      )
-    );
     setNextGames(
       calendario
         .filter(
